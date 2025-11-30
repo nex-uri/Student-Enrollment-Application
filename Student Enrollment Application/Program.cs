@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            StackADT stack = new StackADT();
+
+            stack.AddCourse("consec3");
+            stack.AddCourse("consec2");
+            stack.AddCourse("dstalgo");
+
+            stack.DeleteCourse();
+
+            foreach (var course in stack.GetCourses())
+            {
+                Console.WriteLine(course);
+            }
         }
     }
 }
