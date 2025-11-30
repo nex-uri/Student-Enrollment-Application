@@ -8,6 +8,9 @@ namespace Student_Enrollment_Application
 {
     internal class StackADT
     {
+        //ADT STACK FUNCTION
+
+        //========================================================
         private object[] arr;
         public int top;
 
@@ -76,5 +79,6 @@ namespace Student_Enrollment_Application
             }
             return arr_display;
         }
+        //========================================================
     }
 }

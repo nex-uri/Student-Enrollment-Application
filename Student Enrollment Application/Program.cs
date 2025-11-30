@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+            //A CONCEPT OF STACK FUNCTION OF ADDING AND DELETING COURSES
+
+            //==========================================================
             StackADT stack = new StackADT();
 
             stack.AddCourse("consec3");
@@ -16,6 +19,7 @@
             {
                 Console.WriteLine(course);
             }
+            //==========================================================
         }
     }
 }
