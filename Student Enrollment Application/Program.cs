@@ -4,21 +4,21 @@
     {
         static void Main(string[] args)
         {
+            StackADT stack = new StackADT();
+
             //A CONCEPT OF STACK FUNCTION OF ADDING AND DELETING COURSES
 
             //==========================================================
-            StackADT stack = new StackADT();
+            //stack.AddCourse("consec3");
+            //stack.AddCourse("consec2");
+            //stack.AddCourse("dstalgo");
 
-            stack.AddCourse("consec3");
-            stack.AddCourse("consec2");
-            stack.AddCourse("dstalgo");
+            //stack.DeleteCourse();
 
-            stack.DeleteCourse();
-
-            foreach (var course in stack.GetCourses())
-            {
-                Console.WriteLine(course);
-            }
+            //foreach (var course in stack.GetCourses())
+            //{
+            //    Console.WriteLine(course);
+            //}
             //==========================================================
         }
     }
